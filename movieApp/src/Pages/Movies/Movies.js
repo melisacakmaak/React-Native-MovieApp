@@ -60,7 +60,7 @@ export default function Movies() {
       <Carousel
         data={filter_movieGenre}
         renderItem={renderMovies}
-        sliderWidth={350}
+        sliderWidth={width}
         itemWidth={width * 0.7}
       />
     </SafeAreaView>
